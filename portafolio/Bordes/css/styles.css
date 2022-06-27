@@ -1,0 +1,47 @@
+*{
+    background-image: url("https://c.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif");
+    background-position: center 25%; 
+    background-size: cover;     
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+
+.imagenes{
+    padding: 50px 160px;
+    justify-content: center;
+}
+
+.imagenes2{
+    padding: 50px 160px;
+}
+
+.icon, .icon2, .estadisticas, .imagen{
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+}
+
+.icon{
+    border: 20px;
+    background-color: aliceblue;
+}
+
+.icon2{
+    border-radius: 150px;
+    background-color: antiquewhite;
+}
+
+.estadisticas{
+    border: 15px;
+    background-color: azure;
+}
+
+.imagen{
+    border-radius: 0px 20px ;
+    background-color: bisque;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Menù Lateral con Css</title>
+	<link rel="stylesheet" href="css/stylesf.css">
+    <link rel="icon" type="image/png" href="/img/fresa.png" />
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<h1>Portafolio</h1>
+	
+	</header>
+
+	<div class="capa"></div>
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="index.html">Inicio</a>
+			<a href="Servicios.html">Servicios</a>
+			<a href="Proyectos.html">Proyectos</a>
+			<a href="Contacto.html">Contacto</a>
+            
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
+<br><br><br><br><br><br><br>
+<div class="formulario">
+    <br><br>     
+    <h1>Contáctanos</h1>
+
+    <br> 
+        <form action="mailto:victorya2018@gmail.com" method="post" enctype="text/plain">       
+
+              <p>
+                <label for="nombre" class="nombre">Nombre
+                  <span class="obligatorio"></span>
+                </label>
+                  <input type="text" name="name_control" id="nombre" required="required" placeholder="Ingresa tu nombre">
+              </p>
+            
+              <p>
+                <label for="email" class="email">Email
+                  <span class="obligatorio"></span>
+                </label>
+                  <input type="email" name="email_control" id="email" required="required" placeholder="Ingresar Email">
+              </p>
+          
+              <p>
+                <label for="telefone" class="telefone">Teléfono
+                </label>
+                  <input type="tel" name="tel_control" id="telefono" placeholder="Ingresa tu teléfono">
+              </p>    
+            
+              <p>
+                <label for="asunto" class="colocar_asunto">Asunto
+                  <span class="obligatorio"></span>
+                </label>
+                  <input type="text" name="asunto_control" id="assunto" required="required" placeholder="Ingresar asunto">
+              </p>        
+
+              <p>
+                  <label for="" class="comentario"> Comentario </label>
+                  <br>
+                  <textarea name="comentario" id="" maxlength="300" placeholder="Deja tu comentario..."></textarea>
+                  <br>
+                  <input type="submit" class="enviar" name="enviar" value="Enviar"/>
+              </p>
+
+              <p class="obligatorio">
+                <span class="obligatorio"> <br> Campos OBLIGATORIOS. </span>
+              </p>          
+        </form>
+        <br><br>
+  </div>  
+</body>
+</html>

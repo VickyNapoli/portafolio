@@ -1,0 +1,195 @@
+
+body{
+    background-color: #FED9B7;
+}
+
+
+h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    padding: 5px 450px;
+    background-color: #F07167;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace
+}
+
+
+
+.icon {
+    float: left;
+    margin-top: 15px;
+    margin-left: 80px;
+    height: 60px;
+    width: 60px;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 130px;
+    font-size: 20px;
+    padding: 5px 200px;
+    background-color: #F07167;
+    border-radius: 15px;
+}
+
+img {
+    height: 200px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.cuerpo{
+    font-size: 20px;
+    padding: 5px 0px;
+    border-radius: 15px;
+    text-align: center;}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+.nav, ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+a:hover {
+    color: #FDFCDC;
+}
+
+p{
+    text-align: center;
+}
+
+.bloque.parallax{
+    background-image: url("/img/creando.jpg");
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    line-height: 50px;
+}
+
+.parallax.img1{
+    background-image: url('http://d3ugyf2ht6aenh.cloudfront.net/stores/001/140/597/products/mcuabe11-04e3767b385044010b16364012491838-640-0.jpg');
+    text-align: center;
+}
+
+.parallax.img2 {
+    background-image: url("/img/ruso.jpg");
+    text-align: center;
+}
+
+
+.oscar {
+    height: 250px;
+    width: 300px;
+}
+
+/*Productos*/
+
+.frogimg{
+    padding: 10px 335px;    
+}
+
+.frog{
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(247, 168, 137);
+    border-radius: 20px;
+    color: #be5a53;
+    font-weight: 50px;
+    margin: 50px;
+
+}
+
+.fg{
+    font-size: 20px;
+    color: #be5a53;
+
+}
+
+.mesagamerimg{
+    padding: 10px 335px;    
+}
+
+.mesagay{
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(247, 168, 137);
+    border-radius: 20px;
+    color: #be5a53;
+    font-weight: 50px;
+    margin: 50px;
+
+}
+
+.poolimg{
+    padding: 10px 335px;    
+}
+
+.pool{
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(247, 168, 137);
+    border-radius: 20px;
+    color: #be5a53;
+    font-weight: 50px;
+    margin: 50px;
+
+}
+
+.sillagamer{
+    padding: 10px 335px;    
+}
+
+.silla{
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(247, 168, 137);
+    border-radius: 20px;
+    color: #be5a53;
+    font-weight: 50px;
+    margin: 50px;
+
+}
+
+
+/*boton*/
+
+
+button{
+    margin-left: 30px;
+     float: left;
+     height: 30px; 
+     background-color: rgb(247, 168, 137);
+     border-color: #be5a53; 
+     border-style: solid; 
+     border-radius: 10px;  
+     width: 100px;   
+   }
+
+button a{
+    font-size: 16px;
+    color: #be5a53;;
+}
