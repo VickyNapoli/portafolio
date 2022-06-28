@@ -1,3 +1,2 @@
-x q me haces caso? dominadx
-puto
-gay
+x q me haces caso?
+
